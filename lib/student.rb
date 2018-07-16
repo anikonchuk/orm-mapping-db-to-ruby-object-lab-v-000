@@ -47,7 +47,7 @@ class Student
       SELECT count(*)
       FROM students
       GROUP BY grade
-      WHERE grade = 9
+      WHERE grade = "9"
       SQL
 
     DB[:conn].execute(sql)    
