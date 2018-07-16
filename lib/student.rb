@@ -52,6 +52,9 @@ class Student
     DB[:conn].execute(sql)
   end
 
+  def students_below_12th_grade
+  end
+
   def self.create_table
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS students (
