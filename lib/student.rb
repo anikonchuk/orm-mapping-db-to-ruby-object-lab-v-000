@@ -46,7 +46,6 @@ class Student
     sql = <<-SQL
       SELECT count(*)
       FROM students
-      GROUP BY grade
       WHERE grade = "9"
       SQL
 
